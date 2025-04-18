@@ -55,7 +55,7 @@ export const CreateProjectForm = ({onCancel}: createWorkspaceFormProps)=>{
         mutate({form:finalValues},{
             onSuccess: () =>{
                 form.reset();
-                router.push(`/workspace/${workspaceId}`)
+                router.push(`/`)
             }
         })
     }
